@@ -1,0 +1,36 @@
+<!--
+theme name:     Gameboy Zero 3.5" - Dark Version [MOD]
+version:        1.0
+author:         Brad Miller
+edited by:      tiduscrying
+license:        creative commons CC BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/3.0/
+based on:       "GBZ 3.5" by Brad Miller, "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigArt" by Ewzzy
+-->
+
+<theme>
+
+    <formatVersion>7</formatVersion>
+	
+
+    <view name="system">
+		<helpsystem name="help">
+			<fontSize>0.031</fontSize>
+			<pos>0.05 -1</pos>
+		</helpsystem>
+	</view>
+	
+    <view name="basic, detailed, video">
+		<helpsystem name="help">
+			<fontSize>0.032</fontSize>
+			<pos>0.003 -1</pos>
+		</helpsystem>
+	</view>
+	
+	<view name="system, basic, detailed, video">
+	<image name="background_help" extra="true">
+			<visible>false</visible>
+	</image>
+	</view>
+
+</theme>
+
